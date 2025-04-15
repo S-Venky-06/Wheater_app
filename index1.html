@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="backup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-header">
+            <div class="location-info">
+                <h1 id="location">Loading...</h1>
+                <p id="date">--</p>
+            </div>
+            <div class="time" id="time">--:--</div>
+        </div>
+
+        <div class="weather-icon" id="weather-icon">☀️</div>
+        
+        <div class="temperature" id="temperature">--°C</div>
+        
+        <div class="weather-description" id="weather-description">Loading weather data...</div>
+        
+        <div class="weather-details">
+            <div class="detail">
+                <div class="value" id="humidity">--%</div>
+                <div class="label">Humidity</div>
+            </div>
+            <div class="detail">
+                <div class="value" id="wind-speed">-- km/h</div>
+                <div class="label">Wind</div>
+            </div>
+            <div class="detail">
+                <div class="value" id="feels-like">--°C</div>
+                <div class="label">Feels Like</div>
+            </div>
+        </div>
+        
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search city...">
+            <button id="search-button">Search</button>
+        </div>
+    </div>
+
+    <script src="main2.js"></script>
+</body>
+</html>
