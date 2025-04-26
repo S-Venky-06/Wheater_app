@@ -1,7 +1,7 @@
 # Wheater_app
 A Dynamic Wheather App Build Using CSS and HTML and JavaScript
 
-Here's a concise and clear README description based on the HTML code you provided:
+
 
 ---
 # Weather App 🌦️
